@@ -1,0 +1,35 @@
+.main-item {
+    background-color: inherit;
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  
+  .main-item-list {
+    display: flex;
+    gap: 30px;
+    flex-basis: 270px;
+  }
+  
+  .main-item-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  
+    color: var(--dark-title);
+  
+    margin-bottom: 10px;
+  }
+  
+  .main-item-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+  
+    letter-spacing: 0.03em;
+    line-height: 24px;
+    color: var(--dark-text);
+  
+    width: 270px;
+  }
