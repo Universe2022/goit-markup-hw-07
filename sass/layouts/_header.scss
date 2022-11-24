@@ -4,7 +4,7 @@
     border-color: #ececec;
   }
   
-  .header-list .link {
+  .menu .link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -16,7 +16,7 @@
   }
   }
   
-  .header-list {
+  .menu {
     display: flex;
     gap: 50px;
     margin-left: 93px;
@@ -33,7 +33,7 @@
     border-bottom-width: 1px;
   }
   
-  .header-logo {
+  .logo {
     font-family: raleway;
     font-weight: 700;
     font-size: 26px;
@@ -42,15 +42,13 @@
     color: var(--blue);
   }
   
-  .header-logo-studio {
+  .logo__text {
     color: var(--black);
   }
   
-  .header-studio-logo {
-    color: var(--white);
-  }
   
-  .header-link-item {
+  
+  .menu__item {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -58,7 +56,7 @@
     color: var(--blue);
   }
   
-  .header-mail {
+  .connect__mail {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -77,7 +75,7 @@
     width: 122px;
   }
   
-  .header-tel {
+  .connect__tel {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -91,46 +89,46 @@
   }
   }
   
-  .header-navigation {
+  .navigation {
     display: flex;
     align-items: center;
   }
   
-  .header-container {
+  .header__container {
     display: flex;
     justify-content: space-between;
   }
   
-  .header-contact-list {
+  .connect {
     display: flex;
     align-items: center;
     gap: 50px;
   }
   
-  .post-phone-link {
+  .connect__icon {
     fill: #757575;
     margin-right: 10px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    .header-mail:hover & {
+    .connect__mail:hover & {
     fill: var(--blue);
     }
   }
   
-  .header-mail {
+  .connect__mail {
     display: flex;
     align-items: center;
   }
   
-  .tel-phone-link {
+  .connect__phone {
     fill: #757575;
     margin-right: 10px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    .header-tel:hover & {
+    .connect__tel:hover & {
       fill: var(--blue);
     }
   }
   
-  .header-tel {
+  .connect__tel {
     display: flex;
     align-items: center;
   }
@@ -141,7 +139,7 @@
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .header-link-item {
+  .menu__item {
     position: relative;
   }
   

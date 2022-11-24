@@ -1,16 +1,12 @@
 @import './utils/vars';
+//@import './utils/placeholders';
 @import './base/reset';
-
-@import './utils/placeholders';
-
 @import './base/common';
 @import './utils/hidden';
-
 @import './components/container';
 @import './components/contacts';
 @import './components/modal';
 @import './components/button' ;
-
 @import './layouts/header';
 @import './layouts/main-hero';
 @import './layouts/vector';
